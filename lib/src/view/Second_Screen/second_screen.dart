@@ -71,8 +71,19 @@ class _Second_ScreenState extends State<Second_Screen> {
             style: SmallText,
           ),
           sized_Box(height * 0.05, 0),
+
+          ////////about and review button in the detail page
+          ///
+          ///
           buttons(height, width),
+
           sized_Box(height * 0.1, 0),
+          ////First Name  & Last Name showing field
+          ///
+          ///
+          ///
+          ///
+          ///
           Row(
             children: [
               sized_Box(0, width * 0.1),

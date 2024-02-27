@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:machine_test/src/const/sizedBox.dart';
 import 'package:machine_test/src/const/style.dart';
 
 Widget buttons(height, width) {

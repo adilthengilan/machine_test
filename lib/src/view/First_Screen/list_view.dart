@@ -23,9 +23,11 @@ class _UsersListState extends State<UsersList> {
           shrinkWrap: true,
           itemCount: api.users.data.length,
           itemBuilder: (context, index) {
+            //////////  Reassigned the api.user to shorten the path
             final Details = api.users;
             return InkWell(
               onTap: () {
+                /////////Navigating to Second screen passing with the users data
                 Navigator.push(
                     context,
                     MaterialPageRoute(

@@ -3,7 +3,7 @@ import 'package:machine_test/src/const/sizedBox.dart';
 import 'package:machine_test/src/const/style.dart';
 import 'package:machine_test/src/controller/api_integration.dart';
 import 'package:machine_test/src/model/model_class.dart';
-import 'package:machine_test/src/view/First_Screen/list_view.dart';
+import 'package:machine_test/src/view/First_Screen/users_list.dart';
 import 'package:machine_test/src/view/First_Screen/widgets/widgets.dart';
 import 'package:provider/provider.dart';
 

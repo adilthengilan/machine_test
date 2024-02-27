@@ -18,6 +18,7 @@ class _UsersListState extends State<UsersList> {
   @override
   Widget build(BuildContext context) {
     final api = Provider.of<Api_Intergration>(context);
+    api.fetchData();
     if (api.users.data.isNotEmpty) {
       return ListView.builder(
           shrinkWrap: true,
